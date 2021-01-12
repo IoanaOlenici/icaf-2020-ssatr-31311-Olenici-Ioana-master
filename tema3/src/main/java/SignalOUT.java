@@ -21,7 +21,7 @@ public class SignalOUT {
     }
 
     public  void sendMessage(){
-        String FILENAME = "C:\\Users\\Olenici\\Desktop\\icaf-2020-ssatr-31311-Olenici-Ioana-master\\tema3\\output"+capsuleReceiver+"port"+ portReceiver +".txt";
+        String FILENAME = "C:\\Users\\Olenici\\Desktop\\icaf-2020-ssatr-31311-Olenici-Ioana-master\\icaf-2020-ssatr-31311-Olenici-Ioana-master\\tema3\\output"+capsuleReceiver+"port"+ portReceiver +".txt";
         String content = "Mesaj de la portul de iesire " + portSender + " din capsula " +capsuleSender +
                 " la portul de intrare " +portReceiver + " din capsula " + capsuleReceiver + "\r\n";
         System.out.print("Se trimite: " + content);

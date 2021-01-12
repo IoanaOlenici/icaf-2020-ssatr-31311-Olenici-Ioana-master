@@ -13,7 +13,7 @@ public class SignalIN {
     }
 
     public void receiveMessage(){
-        String FILENAME = "C:\\Users\\Olenici\\Desktop\\icaf-2020-ssatr-31311-Olenici-Ioana-master\\tema3\\output\\capsula"+capsuleReceiver+"port"+ portReceiver +".txt";
+        String FILENAME = "C:\\Users\\Olenici\\Desktop\\icaf-2020-ssatr-31311-Olenici-Ioana-master\\icaf-2020-ssatr-31311-Olenici-Ioana-master\\tema3\\output\\capsula"+capsuleReceiver+"port"+ portReceiver +".txt";
         File file = new File(FILENAME);
         if(file.exists()){
             try {
